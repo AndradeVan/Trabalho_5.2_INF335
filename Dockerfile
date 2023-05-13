@@ -1,6 +1,6 @@
 FROM openjdk:11
 
-COPY OlaUnicamp.java
+COPY OlaUnicamp.java /
 
 RUN javac OlaUnicamp.java
 
